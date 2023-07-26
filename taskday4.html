@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Opening Form</title>
+</head>
+<body style="background-color: beige;">
+  <h1>Bank Account Opening Form</h1>
+  <form>
+    
+    <input type="text"  name="name" placeholder="Enter name" autofocus required> <br><br>
+
+    
+    <input type="email" name="email" placeholder="enter email" autocomplete="off" required> <br><br>
+
+    
+    <input type="tel"  name="phone" placeholder="enter mobile number" required > <br><br>
+
+    
+    <textarea id="address" name="address" rows="7" cols="40" placeholder="enter address here" required></textarea> <br><br>
+
+    
+    <input type="number" id="initial-deposit" name="initial-deposit" required placeholder="enter inntial deposit amount" min="0" max="1000000" > <br><br>
+    <select name="country">
+        <option value="" selected hidden>choose country</option>
+        <option value="india">india</option>
+        <option value="usa">usa</option>
+        <option value="canada">canada</option>
+        <option value="nepal">nepal</option>
+    </select><br><br>
+
+    <input type="submit">
+  </form>
+</body>
+</html>
